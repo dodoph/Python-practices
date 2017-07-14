@@ -14,3 +14,12 @@ for i in range (1,10):
 #7
 #8
 #9
+
+k = 5
+for i in range (1,10):
+    if k == 3:
+        break
+else:
+     print i
+
+ #9
