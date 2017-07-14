@@ -6,5 +6,8 @@ while (i % 3):
         break
     i += 1
 
+ #1
+ #2
+
 # i % 3 find mod. when 1 % 3 != 0, while loop is true. When it's equal to 0. 
 # while loop is fasle and stop.
