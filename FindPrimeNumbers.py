@@ -10,3 +10,16 @@ while j < 100:
 	if (i > k):
 		print j
 	j = j + 1
+
+def isprime(x):
+	if x == 1:
+		return False
+	k = int(sqrt(x))
+	for i in range(2, k+1 ):
+		if x%i== 0:
+			return False
+	return True
+
+for j in range(2, 101):
+	if isprime(j):
+		print j
